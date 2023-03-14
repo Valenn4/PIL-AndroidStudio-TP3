@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PilKotlin</string>
+
+    <string name="title_app">Pil Hello World</string>
+    <string name="input_text">Please enter a text</string>
+    <string name="button_show_text">Show Text</string>
+</resources>
