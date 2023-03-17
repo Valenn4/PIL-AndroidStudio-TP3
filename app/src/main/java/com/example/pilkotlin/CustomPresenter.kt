@@ -8,7 +8,7 @@ class CustomPresenter(private var customView: ComponentContract.View, private va
         var text : String
 
         if(message.isEmpty()){
-            text = customModel.errorMessage()
+            text = customModel.getErrorMessage()
         } else {
             text = customModel.getMessageInput(message)
         }

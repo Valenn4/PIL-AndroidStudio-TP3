@@ -11,6 +11,6 @@ interface ComponentContract {
 
     interface Model {
         fun getMessageInput(text: String): String
-        fun errorMessage(): String
+        fun getErrorMessage(): String
     }
 }
