@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="text_size">30sp</dimen>
+    <dimen name="margin_top_title">28dp</dimen>
+    <dimen name="padding_title">10dp</dimen>
+    <dimen name="text_size_title">30sp</dimen>
+
+    <dimen name="margin_top_input">30dp</dimen>
+    <dimen name="margin_horizontal_input">60dp</dimen>
+
+    <dimen name="margin_top_button">5dp</dimen>
 </resources>

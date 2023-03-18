@@ -4,4 +4,6 @@
     <string name="title_app">Pil Hello World</string>
     <string name="input_text">Please enter a text</string>
     <string name="button_show_text">Show Text</string>
+
+    <string name="message_error">Enter a message please</string>
 </resources>
