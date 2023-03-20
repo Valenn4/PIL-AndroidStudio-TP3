@@ -6,7 +6,7 @@ interface MainContract {
     }
 
     interface View {
-        fun showMessage()
+        fun showMessage(message: String)
         fun showError()
         fun clickButton(function: () -> Unit)
         fun getMessageInput(): String
