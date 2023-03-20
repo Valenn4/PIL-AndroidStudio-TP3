@@ -8,6 +8,6 @@ class MainPresenter(private var view: MainContract.View): MainContract.Presenter
         val message = view.getMessageInput()
         if(message.isEmpty()){
             view.showError()
-        } else {view.showMessage()}
+        } else {view.showMessage(message)}
     }
 }
