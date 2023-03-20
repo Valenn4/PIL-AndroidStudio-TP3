@@ -13,8 +13,8 @@ class MainView(private var activity: Activity) : MainContract.View {
     override fun getMessageInput(): String {
         return binding.inputText.text.toString()
     }
-    override fun showMessage() {
-        Toast.makeText(activity, binding.inputText.text, Toast.LENGTH_SHORT).show()
+    override fun showMessage(message: String) {
+        Toast.makeText(activity, message, Toast.LENGTH_SHORT).show()
     }
 
     override fun showError() {
