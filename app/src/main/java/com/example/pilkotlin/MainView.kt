@@ -4,7 +4,7 @@ import android.app.Activity
 import android.widget.Toast
 import com.example.pilkotlin.databinding.ActivityMainBinding
 
-class MainView(private var activity: Activity) : MainContract.View {
+class MainView(activity: Activity) : ActivityView(activity), MainContract.View {
     private var binding: ActivityMainBinding = ActivityMainBinding.inflate(activity.layoutInflater)
     init {
         activity.setContentView(binding.root)
@@ -18,7 +18,7 @@ class MainView(private var activity: Activity) : MainContract.View {
     }
 
     override fun showError() {
-        Toast.makeText(activity, activity.resources.getString(R.string.message_error), Toast.LENGTH_SHORT).show()
+        Toast.makeText(activity, activity?.resources?.getString(R.string.message_error), Toast.LENGTH_SHORT).show()
     }
 
     override fun clickButton(function: () -> Unit) {
